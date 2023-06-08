@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import classes from './Auth.module.css';
-import { AuthActions } from './store';
+import { AuthActions } from './store/AuthSlice';
 const Auth = () => {
   const dispact=useDispatch()
   const loginHandler=(e)=>{
